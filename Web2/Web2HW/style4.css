@@ -1,15 +1,18 @@
 .maindiv{
-        text-align: center;
+        width: 500px;
+        height: 300px;
 }
 .grltitle{
         text-align: end;
 }
 .grl{
-
+        display: flex;
+        flex-direction: column;
+        border-bottom: solid red 4px;
 }
 .boytitle{
         text-align: end;
 }
 .boy{
-        
+        border-bottom: blue solid 4px;
 }

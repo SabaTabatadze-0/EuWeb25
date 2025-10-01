@@ -1,0 +1,22 @@
+.border1{
+    border: solid black 2px;
+    border-radius: 10px;
+    height: 30px;
+    width: 70px;
+    background-color: red;
+}
+.border2{
+    border: solid black 2px;
+    border-radius: 10px;
+    height: 30px;
+    width: 70px;
+}
+.border3{
+    border: solid black 2px;
+    border-radius: 10px;
+    height: 30px;
+    width: 70px;
+    background-image: url(https://www.aquaread.com/blog/wp-content/uploads/2022/07/marine-water.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

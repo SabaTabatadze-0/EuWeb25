@@ -1,0 +1,33 @@
+.dot{
+    border: dotted cyan 3px;
+}
+.dash{
+    border: dashed cyan 3px;
+}
+.solid{
+    border: solid cyan 3px;
+}
+.doub{
+    border: double cyan 3px;
+}
+.groove{
+    border: groove cyan 3px;
+}
+.ridge{
+    border: ridge cyan 3px;
+}
+.inset{
+    border: inset cyan 3px;
+}
+.outset{
+    border: outset cyan 3px;
+}
+.hidden{
+    border: hidden cyan 3px;
+}
+.mix{
+    border-left: dotted cyan 3px;
+    border-right: dashed cyan 3px;
+    border-top: solid cyan 3px;
+    border-bottom: double cyan 3px;
+}
