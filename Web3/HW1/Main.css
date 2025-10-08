@@ -1,0 +1,9 @@
+body{
+    background-image: url(Background.webp);
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+div{
+    padding: 20px;
+}
