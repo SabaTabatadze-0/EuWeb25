@@ -1,0 +1,30 @@
+.table-2 {
+  width: 900px;
+  height: 400px;
+  border: solid black 3px;
+  border-collapse: collapse;
+}
+.table-2 td {
+  border: solid 2px green;
+  padding: 5px;
+}
+.table-2 tr td:first-child {
+  background-color: rgb(237, 119, 248);
+}
+.table-2 tr td:last-child {
+  background-color: rgb(15, 200, 200);
+}
+
+div {
+  width: 70px;
+  height: 10px;
+  border: solid black 1px;
+  background-color: rgb(13, 114, 237);
+}
+
+p {
+  width: 70px;
+  height: 20px;
+  border: solid black 1px;
+  background-color: rgb(13, 114, 237);
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,21 @@
+.city{
+        display: flex;
+        justify-content: space-around;
+        justify-items: end;
+        font-size: 30px;
+}
+body{
+        background-image: url(tbilisi.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: wheat;
+}
+
+a{
+        transition: 0.5s;
+}
+
+a:hover{
+        transform: scale(1.05);
+        cursor: pointer;
+}

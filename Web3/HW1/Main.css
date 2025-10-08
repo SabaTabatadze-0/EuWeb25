@@ -7,3 +7,17 @@ body{
 div{
     padding: 20px;
 }
+
+li{
+    transition: transform 0.5s;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+li:hover{
+    color: slateblue;
+    transform: scale(1.05);
+    cursor: pointer;
+}
