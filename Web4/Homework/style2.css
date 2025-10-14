@@ -1,0 +1,13 @@
+table{
+    border: 1px solid black;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+}
+td,th{
+    border: 1px solid black;
+}
+tfoot{
+    background-color: green;
+    height: 10px;
+}

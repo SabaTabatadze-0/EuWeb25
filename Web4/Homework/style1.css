@@ -1,0 +1,25 @@
+table{
+    border: solid black 1px;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    border-collapse: collapse;
+}
+td{
+    border: solid black 1px;
+}
+.one{
+    background-color: white;
+}
+body{
+    background-color: lightgray;
+}
+.two{
+    background-color: red;
+}
+.three{
+    background-color: green;
+}
+.four{
+    background-color: blue;
+}
