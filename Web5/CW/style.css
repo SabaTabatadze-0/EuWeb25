@@ -1,0 +1,18 @@
+table {
+  border: solid black 1px;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+}
+
+td {
+  border: solid black 1px;
+}
+
+.blue {
+  background-color: cyan;
+}
+
+.yellow {
+  background-color: bisque;
+}/*# sourceMappingURL=style.css.map */
