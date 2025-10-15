@@ -1,0 +1,69 @@
+.container {
+  border: solid black 3px;
+  text-align: center;
+  margin: auto;
+  height: 300px;
+  width: 400px;
+}
+.container .brdrs1 {
+  border: black solid 1px;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+.container .brdrs1 .div-1 {
+  height: 50px;
+  width: 100px;
+  border: 5px dashed red;
+  background-color: yellow;
+  margin: auto;
+}
+.container .brdrs1 .div-2 {
+  height: 50px;
+  width: 100px;
+  margin: auto;
+  border-top: 5px dashed red;
+  border-bottom: green 5px dotted;
+  border-left: solid blue 5px;
+  background-color: yellow;
+}
+.container .brdrs1 .div-3 {
+  margin: auto;
+  border-top: 30px solid red;
+  border-bottom: green 30px solid;
+  border-left: solid blue 30px;
+  border-right: yellow solid 30px;
+  background-color: yellow;
+}
+.container .brdrs2 {
+  border: black solid 1px;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+.container .brdrs2 .div-4 {
+  height: 50px;
+  width: 100px;
+  margin: auto;
+  border: 5px solid red;
+  background-color: yellow;
+  border-radius: 100px 0px 0px 0px;
+}
+.container .brdrs2 .div-5 {
+  height: 50px;
+  width: 100px;
+  margin: auto;
+  border: 3px solid green;
+  border-radius: 0px 20px 20px 0px;
+  background-color: yellow;
+}
+.container .brdrs2 .div-6 {
+  height: 50px;
+  width: 100px;
+  margin: auto;
+  border: 5px solid blue;
+  border-radius: 0px 100px 0px 100px;
+  background-color: yellow;
+}/*# sourceMappingURL=style.css.map */

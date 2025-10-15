@@ -1,0 +1,13 @@
+.container{
+        width: 1200px;
+        min-height: 550px;
+        border: solid 5px green;
+        margin: auto;
+        div{
+                width: 400px;
+                min-height: 150px;
+                border: solid 2px black;
+                background-color: aquamarine;
+                margin: auto;
+        }
+}
