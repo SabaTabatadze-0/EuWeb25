@@ -1,0 +1,25 @@
+.cont{
+        display: flex;
+        justify-content: center;
+        div{
+                background-color: purple;
+                border: 3px orange solid;
+                width: 100px;
+                height: 60px;
+                margin: 5px
+        }
+        .box1{
+                border-radius: 2px;
+        }
+        .box2{
+                border-radius: 20px;
+        }
+        .box3{
+                border-radius: 100px;
+                width: 62px;
+        }
+        .box4{
+                border-bottom-right-radius: 20px;
+                border-top-left-radius: 20px;
+        }
+}

@@ -1,0 +1,27 @@
+.cont{
+        flex-shrink: 0;
+        margin: 20px;
+        background-size: cover;
+        box-sizing: border-box;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        
+        div{
+                width: 100px;
+                height: 100px;
+        }
+        .box1{
+                background-color: aqua;
+                border: solid black 1px;
+                border-radius: 25px;
+        }
+        .box2{
+                background-color: wheat;
+                border: solid black 1px;
+                border-radius: 100px;
+        }
+}
+body{
+        background-color: black;
+}
