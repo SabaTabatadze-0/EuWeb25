@@ -1,0 +1,50 @@
+.container{
+        display: flex;
+        justify-content: space-around;
+        font-size: 30px;
+        position: relative; 
+        a{
+        transition: 0.5s;
+        color: inherit;
+        text-decoration: none;
+                div{
+                        display: none; 
+                        position: absolute;
+                        background-color: palevioletred;
+                        border: white solid 1px;
+                        color: white;
+                        font-size: 20px;
+                        min-width: 100px;
+                        padding: 10px;
+                        white-space: nowrap;
+                        height: 80px;
+        }
+                }
+        
+
+        a:hover{
+        transform: scale(1.05);
+        cursor: pointer;
+        color: white;
+        div:nth-child(1){
+
+        }
+        div:nth-child(2){
+
+        }
+        div:nth-child(3){
+
+        }
+                div{
+                        display: block;
+                }
+        }
+}
+header{
+        background-color: burlywood;
+        border: beige 2px solid;
+        border-radius: 2px;
+}
+body{
+        background-color: wheat;
+}

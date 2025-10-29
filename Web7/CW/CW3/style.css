@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+  position: relative;
+}
+.container a {
+  transition: 0.5s;
+  color: inherit;
+  text-decoration: none;
+}
+.container a div {
+  display: none;
+  position: absolute;
+  background-color: palevioletred;
+  border: white solid 1px;
+  color: white;
+  font-size: 20px;
+  min-width: 100px;
+  padding: 10px;
+  white-space: nowrap;
+  height: 80px;
+}
+.container a:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  color: white;
+}
+.container a:hover div {
+  display: block;
+}
+
+header {
+  background-color: burlywood;
+  border: beige 2px solid;
+  border-radius: 2px;
+}
+
+body {
+  background-color: wheat;
+}/*# sourceMappingURL=style.css.map */
