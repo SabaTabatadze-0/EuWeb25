@@ -1,0 +1,52 @@
+.page {
+  border: 1px black solid;
+  height: 1000px;
+  width: 750px;
+  margin: auto;
+}
+.page .nav {
+  border: solid black 1px;
+}
+.page .nav a {
+  margin: 0 20px 0 20px;
+  text-decoration: none;
+  border-left: 1px black solid;
+  border-right: 1px solid black;
+  color: inherit;
+  padding: 2px;
+  transition: 0.5s;
+}
+.page .nav a:hover {
+  background-color: black;
+  color: white;
+}
+.page .side {
+  border: black solid 1px;
+  width: 200px;
+  height: 85%;
+}
+.page .pct img {
+  width: 100%;
+  height: 100%;
+}
+.page ul {
+  padding: 0;
+}
+.page ul li {
+  list-style-type: none;
+  border: black solid 1px;
+  padding: 10px;
+}
+.page ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+.page ul li:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.page ul img {
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=style.css.map */

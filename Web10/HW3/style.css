@@ -1,0 +1,48 @@
+.forms {
+  border: 1px green solid;
+  margin: 150px auto;
+  padding: 10px;
+  min-height: 300px;
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #b5f7b5;
+  border-radius: 5px;
+}
+.forms .info, .forms .column {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+}
+.forms .info .row {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.forms .check .row {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.forms .btnn {
+  margin: auto;
+}
+.forms .btnn input {
+  border: green 1px solid;
+  background-color: #a6ff96;
+  color: gray;
+  width: 150px;
+  height: 40px;
+  transition: 1s;
+  border-radius: 40px;
+}
+.forms .btnn:hover input {
+  background-color: #6afe6a;
+  cursor: pointer;
+  border: #000000 solid 1px;
+}
+
+body {
+  background-color: #effcef;
+}/*# sourceMappingURL=style.css.map */
