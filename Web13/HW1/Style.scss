@@ -1,0 +1,44 @@
+.container{
+        width: 95%;
+        border: solid 4px gray;
+        margin: 10px auto;
+        min-height: 600px;
+        border: black solid 5px;
+}
+header, footer{
+        height: 100px;
+        width: 100%;
+        background-color: cyan;
+}
+.content{
+        min-height: 600px;
+        margin: auto;
+}
+.main{
+        background-color: pink;
+        min-width: 400px;
+        min-height: 300px;
+        margin: 1px;
+}
+.sidebar{
+        background-color: blueviolet;
+        min-width: 200px;
+        min-height: 300px;
+        margin: 1px;
+
+}
+.twin{
+        background-color: magenta;
+        min-width: 300px;
+        min-height: 300px;
+        margin: 1px;
+
+}
+.div1{
+        display: flex;
+        justify-content: center;
+}
+.div2{
+        display: flex;
+        justify-content: center;
+}
