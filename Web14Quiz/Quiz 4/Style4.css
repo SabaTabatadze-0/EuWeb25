@@ -1,0 +1,29 @@
+.box{
+        height: 200px;
+        width: 200px;
+        margin: 50px auto;
+        display: flexbox;
+        div{
+                height: 50px;
+                width: 50px;
+                background-color: cyan;
+                border: 1px solid white;
+                float: left;
+        }
+        div:nth-child(1){
+                background-color: pink;
+                height: 100px;
+        }
+        div:nth-child(7){
+                background-color: pink;
+                height: 100px;
+        }
+        div:nth-child(4){
+                width: 100px;
+                background-color: greenyellow;
+        }
+        div:nth-child(8){
+                width: 100px;
+                background-color: greenyellow;
+        }
+}
