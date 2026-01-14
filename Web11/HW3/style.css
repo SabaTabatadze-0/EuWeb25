@@ -1,0 +1,58 @@
+.body {
+  margin: 100px auto;
+  height: 100px;
+  width: 100px;
+  position: relative;
+}
+.body .blk1 {
+  border: 1px black solid;
+  border-radius: 10%;
+  background-color: #c9ba12;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  animation: 2s 0.5s;
+}
+.body .blk2 {
+  border: 1px black solid;
+  border-radius: 10%;
+  background-color: #a11cc7;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  animation: moveAcross 2s 0.5s;
+}
+.body .blk3 {
+  border: 1px black solid;
+  border-radius: 10%;
+  background-color: #237ead;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  animation: moveAcross 2s 0.5s;
+}
+.body .blk4 {
+  border: 1px black solid;
+  border-radius: 10%;
+  background-color: #e0bcbc;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  animation: moveAcross 2s 0.5s;
+}
+@keyframes an1 {
+  0%, 25% {
+    left: 10px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+}
+@keyframes an2 {}
+@keyframes an3 {}
+@keyframes an4 {}
+
+body {
+  background-color: black;
+}/*# sourceMappingURL=style.css.map */

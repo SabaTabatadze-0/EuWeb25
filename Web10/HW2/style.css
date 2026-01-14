@@ -1,1 +1,27 @@
-/*# sourceMappingURL=style.css.map */
+.forms {
+  border: 2px gray solid;
+  margin: auto;
+  padding: 10px;
+  height: 300px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.forms input, .forms textarea {
+  border: none;
+  border-bottom: 2px gray solid;
+  resize: none;
+  flex-grow: 1;
+  padding: 10px;
+}
+.forms textarea {
+  height: 50px;
+}
+.forms hr {
+  opacity: 0;
+}
+.forms .row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}/*# sourceMappingURL=style.css.map */
